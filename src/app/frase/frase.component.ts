@@ -9,6 +9,6 @@ import { CommonModule } from '@angular/common';
   styleUrl: './frase.component.css'
 })
 export class FraseComponent {
-    @Input() estado = false;
+  @Input() estado = false; // chama a variável estado e inicializa ela dentro do componente como "false", para que seja exibida apenas depois do click
     
 }

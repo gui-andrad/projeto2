@@ -1,0 +1,11 @@
+p{
+    display: flex;
+    justify-self: center;
+    
+}
+
+#frase{
+    display: flex;
+    justify-items: center;
+    padding: 15px;
+}
