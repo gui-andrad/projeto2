@@ -1,0 +1,51 @@
+<div class="forms" id="">
+    <form>
+        <p>Qual dos estados de espírito mais define você no momento?</p>
+        <label>
+            <input type="radio" name="estado_espirito" value="comemorando" (click)="onSelect()">Comemorando uma conquista <!--quando esse elemento for clicado vai chamar o método onSelect-->
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="estado_espirito" value="revoltado">Revoltado
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="estado_espirito" value="esperancoso">Esperançoso
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="estado_espirito" value="desiludido">Desiludido
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="estado_espirito" value="determinado">Determinado
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="estado_espirito" value="desanimado">Desanimado
+        </label>
+        <br>
+    </form>
+</div>
+
+<div>
+    <form>
+        <p>Com o quê você está revoltado?</p>
+        <label>
+            <input type="radio" name="motivo_revolta" value="maldade">Com a maldade do mundo.
+        </label>
+        <label>
+            <input type="radio" name="motivo_revolta" value="desrespeito">Com um desrespeito contra mim.
+        </label>
+        <label>
+            <input type="radio" name="motivo_revolta" value="sociedade">Com a sociedade.
+        </label>
+        <label>
+            <input type="radio" name="motivo_revolta" value="trabalho">Com o trabalho desvalorizado.
+        </label>
+        <label>
+            <input type="radio" name="motivo_revolta" value="sistema">Com o sistema.
+        </label>
+    </form>
+</div>
+<app-frase [estado]="mood"></app-frase>

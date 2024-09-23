@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: './header.component.css'
 })
 export class HeaderComponent {
-  title = 'Musicas'
+  title = 'Qual a frase de Racionais pra esse momento da vida?'
 }
